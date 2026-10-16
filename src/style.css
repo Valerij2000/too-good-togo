@@ -378,7 +378,7 @@ h2 span {
 
 .floating-card-top {
   left: -4%;
-  top: 24%;
+  top: 40%;
 }
 
 .floating-card-bottom {
@@ -1375,8 +1375,8 @@ h2 {
   }
 
   .floating-card-top {
-    left: 0;
-    top: 19%;
+    left: 0px;
+    top: 75%;
   }
 
   .floating-card-bottom {
