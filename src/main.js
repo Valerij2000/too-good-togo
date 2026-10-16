@@ -44,7 +44,7 @@ const toast = document.querySelector('.toast');
 const submitButton = form?.querySelector('[type="submit"]');
 
 // https://formtomail.ru/cabinet
-const FORM_API_KEY = 'YOUR_API_KEY';
+const FORM_API_KEY = import.meta.env.VITE_FORMTOMAIL_API_KEY;
 
 function showToast(message, isError = false) {
   if (!toast) return;
