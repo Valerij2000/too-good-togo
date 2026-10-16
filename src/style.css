@@ -119,7 +119,7 @@ summary:focus-visible {
 }
 
 .brand-name>span {
-  color: #6d55c8;
+  color: var(--chocolate);
 }
 
 .nav {
@@ -386,6 +386,41 @@ h2 span {
   bottom: -1%;
 }
 
+.icon-arrow,
+.icon-star {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  line-height: 0;
+}
+
+.icon-arrow {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-arrow svg {
+  width: 50%;
+  height: 50%;
+}
+
+.icon-star {
+  width: 32px;
+  height: 32px;
+}
+
+.icon-star svg {
+  display: block;
+  width: 50%;
+  height: 50%;
+}
+
+.icon-arrow svg,
+.icon-star svg {
+  overflow: visible;
+}
+
 .floating-icon {
   width: 32px;
   height: 32px;
@@ -403,7 +438,7 @@ h2 span {
 .hero-spark {
   position: absolute;
   font-size: 34px;
-  color: #6f58c6;
+  color: var(--chocolate);
 }
 
 .spark-one {
@@ -439,7 +474,7 @@ h2 span {
 }
 
 .ticker-track b {
-  color: #7259c7;
+  color: var(--chocolate);
   margin-left: 30px;
   font-size: 18px;
 }
@@ -1103,10 +1138,19 @@ h2 {
   }
 
   .nav.nav-open {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+
+    z-index: 9999;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
-    min-height: 100vh;
   }
 
   .nav>a:not(.nav-mobile-cta) {
@@ -1121,9 +1165,15 @@ h2 {
   }
 
   .nav>a:not(.nav-mobile-cta)::after {
-    content: "↗";
-    color: #6f58c6;
-    font: 400 21px "DM Sans", sans-serif;
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: var(--chocolate);
+
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 7L17 17M7 17H17V7'/%3E%3C/svg%3E") center / contain no-repeat;
+
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 7L17 17M7 17H17V7'/%3E%3C/svg%3E") center / contain no-repeat;
   }
 
   .nav-mobile-cta {
