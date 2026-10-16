@@ -1,159 +1,254 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f6f4e9" />
-    <meta name="description" content="Спасайте вкусную еду от списания: находите предложения пекарен, кафе и магазинов Донецкой области по выгодным ценам." />
-    <title>Вкусно. Выгодно. Не зря — спасаем продукты вместе</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="app">
-      <header class="site-header">
-        <a class="brand" href="#top" aria-label="Вкусно. Выгодно. На главную">
-          <span class="brand-mark" aria-hidden="true">в.</span>
-          <span class="brand-name">вкусно<span>.</span><br />выгодно<span>.</span></span>
-        </a>
-        <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
-          <span></span><span></span>
-        </button>
-        <nav class="nav" aria-label="Главная навигация">
-          <a href="#how">Как это работает</a>
-          <a href="#benefits">Почему мы</a>
-          <a href="#partners">Для бизнеса</a>
-          <a href="#faq">Вопросы</a>
-        </nav>
-        <a class="header-cta" href="#join">Присоединиться <span aria-hidden="true">↗</span></a>
-      </header>
 
-      <main id="top">
-        <section class="hero section-wrap">
-          <div class="hero-copy">
-            <div class="eyebrow"><span class="eyebrow-dot"></span> Донецкая область · новый взгляд на привычное</div>
-            <h1>Хорошая еда.<br /><span>Второй шанс.</span></h1>
-            <p class="hero-description">Помогаем вкусным продуктам найти своих людей. Выбирайте предложения местных кафе, пекарен и магазинов — экономьте деньги и сокращайте количество отходов.</p>
-            <div class="hero-actions">
-              <a class="button button-dark" href="#join">Хочу участвовать <span aria-hidden="true">↗</span></a>
-              <a class="text-link" href="#how">Как это работает <span aria-hidden="true">↓</span></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#f6f4e9" />
+  <meta name="description"
+    content="Спасайте вкусную еду от списания: находите предложения пекарен, кафе и магазинов Донецкой области по выгодным ценам." />
+  <title>Вкусно. Выгодно. Не зря — спасаем продукты вместе</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div id="app" class="app">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Вкусно. Выгодно. На главную">
+        <span class="brand-mark" aria-hidden="true">в.</span>
+        <span class="brand-name">вкусно<span>.</span><br />выгодно<span>.</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Главная навигация">
+        <a href="#how">Как это работает</a>
+        <a href="#benefits">Почему мы</a>
+        <a href="#partners">Для бизнеса</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+      <a class="header-cta" href="#join">Присоединиться <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Донецкая область · новый взгляд на привычное</div>
+          <h1 class="h1">Вкусно есть, <span>но меньше тратить.</span></h1>
+          <p class="hero-description">Помогаем вкусным продуктам найти своих людей. Выбирайте предложения местных кафе,
+            пекарен и магазинов — экономьте деньги и сокращайте количество отходов.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#join">Хочу участвовать <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#how">Как это работает <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span class="note-avatars"><i>🥐</i><i>🍓</i><i>🥖</i></span><span>Хорошая еда
+              заслуживает<br />оказаться на вашем столе</span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-photo" role="img" aria-label="Свежая выпечка и продукты на столе"></div>
+          <div class="hero-sticker">
+            <span>Больше <br> приятных сюрпризов</span>
+          </div>
+          <div class="floating-card floating-card-top"><span class="floating-icon">✳</span><span><b>Вкусная
+                находка</b><small>может ждать рядом</small></span></div>
+          <div class="floating-card floating-card-bottom"><span class="food-emoji">🥐</span><span><b>С
+                пользой</b><small>для всех сторон!</small></span></div>
+          <span class="hero-spark spark-one">✳</span><span class="hero-spark spark-two">✳</span>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Что можно спасти">
+        <div class="ticker-track">
+          <span>ВЫПЕЧКА <b>✳</b></span><span>ФРУКТЫ <b>✳</b></span><span>ГОТОВЫЕ БЛЮДА <b>✳</b></span><span>БАКАЛЕЯ
+            <b>✳</b></span><span>ЦВЕТЫ <b>✳</b></span><span>ДЕСЕРТЫ <b>✳</b></span>
+          <span>ВЫПЕЧКА <b>✳</b></span><span>ФРУКТЫ <b>✳</b></span><span>ГОТОВЫЕ БЛЮДА <b>✳</b></span><span>БАКАЛЕЯ
+            <b>✳</b></span><span>ЦВЕТЫ <b>✳</b></span><span>ДЕСЕРТЫ <b>✳</b></span>
+        </div>
+      </section>
+
+      <section class="benefits section-wrap" id="benefits">
+        <div class="section-heading">
+          <p class="eyebrow">Маленький выбор — большой смысл</p>
+          <h2 class="h2">Почему это<br /><span>хорошая идея?</span></h2>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit-card benefit-yellow reveal">
+            <div class="benefit-icon">₽</div><span class="card-index">01 / ЭКОНОМИЯ</span>
+            <h3>Выгодно для вас</h3>
+            <p>Покупайте продукты по специальным ценам вместо того, чтобы они остались невостребованными.</p>
+            <div class="doodle doodle-coin">↘</div>
+          </article>
+          <article class="benefit-card benefit-pink reveal">
+            <div class="benefit-icon">♡</div><span class="card-index">02 / ЗАБОТА</span>
+            <h3>Полезно для города</h3>
+            <p>Чем меньше хороших продуктов отправляется в отходы, тем разумнее мы используем ресурсы.</p>
+            <div class="doodle doodle-heart">♡</div>
+          </article>
+          <article class="benefit-card benefit-lilac reveal">
+            <div class="benefit-icon">✳</div><span class="card-index">03 / ОТКРЫТИЯ</span>
+            <h3>Вкусные сюрпризы</h3>
+            <p>Открывайте новые пекарни, кафе и магазины — иногда лучшие находки совсем рядом.</p>
+            <div class="doodle doodle-star">✳</div>
+          </article>
+        </div>
+      </section>
+
+      <section class="how section-wrap" id="how">
+        <div class="how-intro">
+          <p class="eyebrow">Легко начать</p>
+          <h2>Четыре шага.<br /><span>Одно хорошее дело.</span></h2>
+          <p>Без сложных схем: находите предложение, бронируете и забираете его в удобное для партнёра время.</p>
+          <a class="button button-lime" href="#join">Начать просто <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="steps">
+          <article class="step reveal">
+            <div class="step-number">01</div>
+            <div>
+              <h3>Найдите предложение</h3>
+              <p>Следите за предложениями пекарен, кафе и магазинов вашего города.</p>
+            </div><span class="step-emoji">🔎</span>
+          </article>
+          <article class="step reveal">
+            <div class="step-number">02</div>
+            <div>
+              <h3>Выберите и договоритесь</h3>
+              <p>Уточните состав, цену и время, когда можно забрать продукты.</p>
+            </div><span class="step-emoji">💬</span>
+          </article>
+          <article class="step reveal">
+            <div class="step-number">03</div>
+            <div>
+              <h3>Заберите заказ</h3>
+              <p>Приходите к партнёру в согласованное время и забирайте покупку.</p>
+            </div><span class="step-emoji">🛍️</span>
+          </article>
+          <article class="step reveal">
+            <div class="step-number">04</div>
+            <div>
+              <h3>Наслаждайтесь находкой</h3>
+              <p>Вкусная еда не пропала зря — а вы сэкономили и уменьшили выбросы CО2 в окружающую среду до 40%.</p>
+            </div><span class="step-emoji">😋</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="manifesto">
+        <div class="manifesto-image" role="img" aria-label="Свежий хлеб и продукты на кухонном столе"></div>
+        <div class="manifesto-copy">
+          <p class="eyebrow">Каждый день имеет значение</p>
+          <h2 class="h2">Не всё, что<br />не продано, —<br /><span>лишнее.</span></h2>
+          <p>За каждым продуктом — труд людей, время и ресурсы. Дадим хорошей еде шанс оказаться там, где её
+            действительно ждут.</p>
+          <a class="text-link" href="#partners">Для местных предпринимателей <span aria-hidden="true">↗</span></a>
+          <span class="manifesto-scribble" aria-hidden="true">♡</span>
+        </div>
+      </section>
+
+      <section class="partners section-wrap" id="partners">
+        <div class="partners-heading">
+          <div>
+            <p class="eyebrow">Для бизнеса</p>
+            <h2 class="h2">Наслаждайтесь <br /><span>за полцены или меньше.</span></h2>
+          </div>
+          <p>Помогаем местным заведениям находить покупателей на качественные продукты, которые не успели продаться в
+            течение дня.</p>
+        </div>
+        <div class="partner-grid">
+          <article class="partner-card partner-bakery reveal">
+            <div class="partner-image image-bakery" role="img" aria-label="Выпечка в пекарне"></div>
+            <div class="partner-content"><span class="partner-tag">01 / ПЕКАРНИ И КАФЕ</span>
+              <h3>Пусть свежая выпечка радует людей</h3>
+              <p>Собирайте наборы из непроданных изделий и знакомьте новых гостей со своим заведением.</p><a
+                href="#join" class="round-link" aria-label="Подключить пекарню">↗</a>
             </div>
-            <div class="hero-note"><span class="note-avatars"><i>🥐</i><i>🍓</i><i>🥖</i></span><span>Хорошая еда заслуживает<br />оказаться на вашем столе</span></div>
-          </div>
-          <div class="hero-visual">
-            <div class="hero-photo" role="img" aria-label="Свежая выпечка и продукты на столе"></div>
-            <div class="hero-sticker"><span>Меньше<br />отходов</span><strong>＋</strong><span>Больше<br />вкуса</span></div>
-            <div class="floating-card floating-card-top"><span class="floating-icon">✳</span><span><b>Вкусная находка</b><small>может ждать рядом</small></span></div>
-            <div class="floating-card floating-card-bottom"><span class="food-emoji">🥐</span><span><b>Не выбрасывать.</b><small>А делиться!</small></span></div>
-            <span class="hero-spark spark-one">✳</span><span class="hero-spark spark-two">✳</span>
-          </div>
-        </section>
+          </article>
+          <article class="partner-card partner-shop reveal">
+            <div class="partner-image image-shop" role="img" aria-label="Свежие продукты в магазине"></div>
+            <div class="partner-content"><span class="partner-tag">02 / МАГАЗИНЫ</span>
+              <h3>Больше пользы от каждого продукта</h3>
+              <p>Предлагайте продукты с подходящим сроком реализации тем, кто успеет ими воспользоваться.</p><a
+                href="#join" class="round-link" aria-label="Подключить магазин">↗</a>
+            </div>
+          </article>
+          <article class="partner-card partner-food reveal">
+            <div class="partner-image image-food" role="img" aria-label="Готовые блюда в кафе"></div>
+            <div class="partner-content"><span class="partner-tag">03 / РЕСТОРАНЫ</span>
+              <h3>Хорошая еда не должна пропадать</h3>
+              <p>Превращайте остатки готовых блюд в приятные предложения для жителей поблизости.</p><a href="#join"
+                class="round-link" aria-label="Подключить ресторан">↗</a>
+            </div>
+          </article>
+        </div>
+      </section>
 
-        <section class="ticker" aria-label="Что можно спасти">
-          <div class="ticker-track">
-            <span>ВЫПЕЧКА <b>✳</b></span><span>ФРУКТЫ <b>✳</b></span><span>ГОТОВЫЕ БЛЮДА <b>✳</b></span><span>БАКАЛЕЯ <b>✳</b></span><span>ЦВЕТЫ <b>✳</b></span><span>ДЕСЕРТЫ <b>✳</b></span>
-            <span>ВЫПЕЧКА <b>✳</b></span><span>ФРУКТЫ <b>✳</b></span><span>ГОТОВЫЕ БЛЮДА <b>✳</b></span><span>БАКАЛЕЯ <b>✳</b></span><span>ЦВЕТЫ <b>✳</b></span><span>ДЕСЕРТЫ <b>✳</b></span>
-          </div>
-        </section>
+      <section class="join" id="join">
+        <div class="join-decoration" aria-hidden="true">✳</div>
+        <p class="eyebrow">Давайте начнём вместе</p>
+        <h2 class="h2">Хорошая еда<br />не должна пропадать.</h2>
+        <p class="join-description">Вы покупатель или представляете бизнес? <br> Оставьте заявку — обсудим, как
+          запустить
+          проект в вашем городе.</p>
+        <form class="join-form" id="join-form">
+          <label class="sr-only" for="contact">Телефон, email или ссылка на соцсеть</label>
+          <input id="contact" name="contact" type="text" placeholder="Телефон, email или соцсеть" required
+            minlength="4" />
+          <label class="sr-only" for="role">Кто вы?</label>
+          <select id="role" name="role">
+            <option value="Покупатель">Хочу покупать выгоднее</option>
+            <option value="Бизнес">Хочу подключить бизнес</option>
+            <option value="Партнёр">Хочу стать партнёром</option>
+          </select>
+          <button class="button button-dark" type="submit">Оставить заявку <span aria-hidden="true">↗</span></button>
+        </form>
+        <p class="form-note">Демо-форма: подключите обработчик заявок перед публикацией сайта.</p>
+        <div class="join-bottom"><span>ВКУСНО. ВЫГОДНО.</span><span>Донецкая область · 2026</span></div>
+      </section>
 
-        <section class="benefits section-wrap" id="benefits">
-          <div class="section-heading">
-            <p class="eyebrow">Маленький выбор — большой смысл</p>
-            <h2>Почему это<br /><span>хорошая идея?</span></h2>
-          </div>
-          <div class="benefit-grid">
-            <article class="benefit-card benefit-yellow reveal">
-              <div class="benefit-icon">₽</div><span class="card-index">01 / ЭКОНОМИЯ</span>
-              <h3>Выгодно для вас</h3><p>Покупайте продукты по специальным ценам вместо того, чтобы они остались невостребованными.</p>
-              <div class="doodle doodle-coin">↘</div>
-            </article>
-            <article class="benefit-card benefit-pink reveal">
-              <div class="benefit-icon">♡</div><span class="card-index">02 / ЗАБОТА</span>
-              <h3>Полезно для города</h3><p>Чем меньше хороших продуктов отправляется в отходы, тем разумнее мы используем ресурсы.</p>
-              <div class="doodle doodle-heart">♡</div>
-            </article>
-            <article class="benefit-card benefit-lilac reveal">
-              <div class="benefit-icon">✳</div><span class="card-index">03 / ОТКРЫТИЯ</span>
-              <h3>Вкусные сюрпризы</h3><p>Открывайте новые пекарни, кафе и магазины — иногда лучшие находки совсем рядом.</p>
-              <div class="doodle doodle-star">✳</div>
-            </article>
-          </div>
-        </section>
+      <section class="faq section-wrap" id="faq">
+        <div>
+          <p class="eyebrow">Всё по делу</p>
+          <h2 class="h2">Частые<br /><span>вопросы.</span></h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Что обычно входит в набор?<span>＋</span></summary>
+            <p>Это зависит от заведения и доступных продуктов. До покупки стоит уточнить состав, ограничения и условия
+              хранения у продавца.</p>
+          </details>
+          <details>
+            <summary>Можно ли выбрать конкретные продукты?<span>＋</span></summary>
+            <p>Формат набора определяет партнёр. Иногда состав известен заранее, а иногда это приятный сюрприз из
+              доступных продуктов.</p>
+          </details>
+          <details>
+            <summary>Как подключить своё заведение?<span>＋</span></summary>
+            <p>Оставьте заявку в форме выше. Для запуска нужно согласовать формат наборов, стоимость, время выдачи и
+              порядок коммуникации с покупателями.</p>
+          </details>
+          <details>
+            <summary>Проект уже работает во всех городах области?<span>＋</span></summary>
+            <p>Этот лендинг — концепт запуска. Наличие подключённых заведений, адреса, цены и возможность оформления
+              заказа нужно подтвердить перед публичным запуском.</p>
+          </details>
+        </div>
+      </section>
+    </main>
 
-        <section class="how section-wrap" id="how">
-          <div class="how-intro">
-            <p class="eyebrow">Легко начать</p>
-            <h2>Четыре шага.<br /><span>Одно хорошее дело.</span></h2>
-            <p>Без сложных схем: находите предложение, бронируете и забираете его в удобное для партнёра время.</p>
-            <a class="button button-lime" href="#join">Начать просто <span aria-hidden="true">↗</span></a>
-          </div>
-          <div class="steps">
-            <article class="step reveal"><div class="step-number">01</div><div><h3>Найдите предложение</h3><p>Следите за предложениями пекарен, кафе и магазинов вашего города.</p></div><span class="step-emoji">🔎</span></article>
-            <article class="step reveal"><div class="step-number">02</div><div><h3>Выберите и договоритесь</h3><p>Уточните состав, цену и время, когда можно забрать продукты.</p></div><span class="step-emoji">💬</span></article>
-            <article class="step reveal"><div class="step-number">03</div><div><h3>Заберите заказ</h3><p>Приходите к партнёру в согласованное время и забирайте покупку.</p></div><span class="step-emoji">🛍️</span></article>
-            <article class="step reveal"><div class="step-number">04</div><div><h3>Наслаждайтесь находкой</h3><p>Вкусная еда не пропала зря — а вы сэкономили и сделали доброе дело.</p></div><span class="step-emoji">😋</span></article>
-          </div>
-        </section>
+    <footer class="footer">
+      <a class="brand brand-footer" href="#top"><span class="brand-mark">в.</span><span
+          class="brand-name">вкусно<span>.</span><br />выгодно<span>.</span></span></a>
+      <p>Сохраняем вкусное. Ценим ресурсы.<br />Начинаем с малого — вместе.</p>
+      <div class="footer-links"><a href="#how">Как работает</a><a href="#partners">Для бизнеса</a><a
+          href="#faq">Вопросы</a></div>
+      <span class="copyright">© 2026 · Концепт проекта</span>
+    </footer>
+    <div class="toast" role="status" aria-live="polite"></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
 
-        <section class="manifesto">
-          <div class="manifesto-image" role="img" aria-label="Свежий хлеб и продукты на кухонном столе"></div>
-          <div class="manifesto-copy">
-            <p class="eyebrow">Каждый день имеет значение</p>
-            <h2>Не всё, что<br />не продано, —<br /><span>лишнее.</span></h2>
-            <p>За каждым продуктом — труд людей, время и ресурсы. Дадим хорошей еде шанс оказаться там, где её действительно ждут.</p>
-            <a class="text-link" href="#partners">Для местных предпринимателей <span aria-hidden="true">↗</span></a>
-            <span class="manifesto-scribble" aria-hidden="true">♡</span>
-          </div>
-        </section>
-
-        <section class="partners section-wrap" id="partners">
-          <div class="partners-heading">
-            <div><p class="eyebrow">Для бизнеса</p><h2>Ваши остатки —<br /><span>чья-то находка.</span></h2></div>
-            <p>Помогаем местным заведениям находить покупателей на качественные продукты, которые не успели продаться в течение дня.</p>
-          </div>
-          <div class="partner-grid">
-            <article class="partner-card partner-bakery reveal"><div class="partner-image image-bakery" role="img" aria-label="Выпечка в пекарне"></div><div class="partner-content"><span class="partner-tag">01 / ПЕКАРНИ И КАФЕ</span><h3>Пусть свежая выпечка радует людей</h3><p>Собирайте наборы из непроданных изделий и знакомьте новых гостей со своим заведением.</p><a href="#join" class="round-link" aria-label="Подключить пекарню">↗</a></div></article>
-            <article class="partner-card partner-shop reveal"><div class="partner-image image-shop" role="img" aria-label="Свежие продукты в магазине"></div><div class="partner-content"><span class="partner-tag">02 / МАГАЗИНЫ</span><h3>Больше пользы от каждого продукта</h3><p>Предлагайте продукты с подходящим сроком реализации тем, кто успеет ими воспользоваться.</p><a href="#join" class="round-link" aria-label="Подключить магазин">↗</a></div></article>
-            <article class="partner-card partner-food reveal"><div class="partner-image image-food" role="img" aria-label="Готовые блюда в кафе"></div><div class="partner-content"><span class="partner-tag">03 / РЕСТОРАНЫ</span><h3>Хорошая еда не должна пропадать</h3><p>Превращайте остатки готовых блюд в приятные предложения для жителей поблизости.</p><a href="#join" class="round-link" aria-label="Подключить ресторан">↗</a></div></article>
-          </div>
-        </section>
-
-        <section class="join" id="join">
-          <div class="join-decoration" aria-hidden="true">✳</div>
-          <p class="eyebrow">Давайте начнём вместе</p>
-          <h2>Хорошие вещи<br />не должны пропадать.</h2>
-          <p class="join-description">Вы покупатель или представляете бизнес? Оставьте заявку — обсудим, как запустить проект в вашем городе.</p>
-          <form class="join-form" id="join-form">
-            <label class="sr-only" for="contact">Телефон, email или ссылка на соцсеть</label>
-            <input id="contact" name="contact" type="text" placeholder="Телефон, email или соцсеть" required minlength="4" />
-            <label class="sr-only" for="role">Кто вы?</label>
-            <select id="role" name="role"><option value="Покупатель">Хочу покупать выгоднее</option><option value="Бизнес">Хочу подключить бизнес</option><option value="Партнёр">Хочу стать партнёром</option></select>
-            <button class="button button-dark" type="submit">Оставить заявку <span aria-hidden="true">↗</span></button>
-          </form>
-          <p class="form-note">Демо-форма: подключите обработчик заявок перед публикацией сайта.</p>
-          <div class="join-bottom"><span>ВКУСНО. ВЫГОДНО.</span><span>Донецкая область · 2026</span></div>
-        </section>
-
-        <section class="faq section-wrap" id="faq">
-          <div><p class="eyebrow">Всё по делу</p><h2>Частые<br /><span>вопросы.</span></h2></div>
-          <div class="faq-list">
-            <details><summary>Что обычно входит в набор?<span>＋</span></summary><p>Это зависит от заведения и доступных продуктов. До покупки стоит уточнить состав, ограничения и условия хранения у продавца.</p></details>
-            <details><summary>Можно ли выбрать конкретные продукты?<span>＋</span></summary><p>Формат набора определяет партнёр. Иногда состав известен заранее, а иногда это приятный сюрприз из доступных продуктов.</p></details>
-            <details><summary>Как подключить своё заведение?<span>＋</span></summary><p>Оставьте заявку в форме выше. Для запуска нужно согласовать формат наборов, стоимость, время выдачи и порядок коммуникации с покупателями.</p></details>
-            <details><summary>Проект уже работает во всех городах области?<span>＋</span></summary><p>Этот лендинг — концепт запуска. Наличие подключённых заведений, адреса, цены и возможность оформления заказа нужно подтвердить перед публичным запуском.</p></details>
-          </div>
-        </section>
-      </main>
-
-      <footer class="footer">
-        <a class="brand brand-footer" href="#top"><span class="brand-mark">в.</span><span class="brand-name">вкусно<span>.</span><br />выгодно<span>.</span></span></a>
-        <p>Сохраняем вкусное. Ценим ресурсы.<br />Начинаем с малого — вместе.</p>
-        <div class="footer-links"><a href="#how">Как работает</a><a href="#partners">Для бизнеса</a><a href="#faq">Вопросы</a></div>
-        <span class="copyright">© 2026 · Концепт проекта</span>
-      </footer>
-      <div class="toast" role="status" aria-live="polite"></div>
-    </div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
 </html>
