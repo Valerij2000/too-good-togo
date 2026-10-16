@@ -532,8 +532,8 @@ h2 {
 
 .doodle {
   position: absolute;
-  right: 22px;
-  bottom: 12px;
+  right: 5px;
+  bottom: 5px;
   font-size: 78px;
   line-height: 1;
   opacity: .3;
@@ -541,8 +541,8 @@ h2 {
 }
 
 .doodle-heart {
-  right: 15px;
-  bottom: 6px;
+  right: 0px;
+  bottom: 0px;
   font-size: 95px;
 }
 
@@ -680,7 +680,7 @@ h2 {
 
 .manifesto-scribble {
   position: absolute;
-  right: -2%;
+  right: 0%;
   bottom: -5%;
   font-size: 125px;
   color: #e6b7a4;
@@ -730,15 +730,15 @@ h2 {
 }
 
 .image-bakery {
-  background-image: url("https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=80");
+  background-image: url("./image-bakery.avif");
 }
 
 .image-shop {
-  background-image: url("https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80");
+  background-image: url("./image-shop.avif");
 }
 
 .image-food {
-  background-image: url("https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80");
+  background-image: url("./image-food.avif");
 }
 
 .partner-content {
