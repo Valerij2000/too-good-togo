@@ -818,6 +818,16 @@ h2 {
   z-index: 1;
 }
 
+.toast-error {
+  background: #b42318;
+  color: #fff;
+}
+
+#join-form button[type='submit']:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
 .join-form input,
 .join-form select {
   min-width: 0;
@@ -845,6 +855,25 @@ h2 {
   font-size: 10px;
   color: #4e5a30;
   margin: 14px 0 55px;
+}
+
+.form-note-link {
+  text-decoration: underline;
+}
+
+.form-note-link {
+  text-decoration: none;
+  color: #0076ff;
+  background-image: linear-gradient(#0076ff, #0076ff);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  padding-bottom: 1px;
+  transition: background-size 0.3s ease;
+}
+
+.form-note-link:hover {
+  background-size: 0% 1px;
 }
 
 .join-bottom {
